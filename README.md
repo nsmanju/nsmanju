@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @nsmanju
 - 👀 I’m interested in Python and R scripts
-- 🌱 I’m currently learning ML, AI
+- 🌱 I’m currently working on ML, AI technologies
 - 💞️ I’m looking to collaborate on Python scripts related fintech and sports betting
 - 📫 How to reach me ... nadkalpur@gmail.com
 
