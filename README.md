@@ -1,10 +1,19 @@
-- 👋 Hi, I’m @nsmanju
-- 👀 I’m interested in Python and R scripts
-- 🌱 I’m currently working on ML, AI technologies
-- 💞️ I’m looking to collaborate on Python scripts related fintech and sports betting
-- 📫 How to reach me ... nadkalpur@gmail.com
+Systematic Quant | Python + C++ | Building for HK Prop
 
-<!---
-nsmanju/nsmanju is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+I build low-latency systematic trading systems end-to-end: research -> backtest -> O(1) C++ engine.
+
+Current Stack:
+Research: Python (pandas, statsmodels, cointegration, OU process)
+Execution: C++ (O(1) cache, 35M checks/sec deterministic)
+Focus: Funding arbitrage, stat-arb alpha factory, walk-forward Sharpe 1.5
+
+Repos:
+
+crypto-funding-arb-engine [C++, 35M/sec O(1) scan]
+stat-arb-alpha-factory [WIP - 10 factors + Engle-Granger + Sharpe]
+What I optimize for: Sharpe, not just PnL. Low turnover, low drawdown, deterministic latency.
+
+Open to: HK quant contract / remote systematic research roles. Can ship factor -> live paper in 1 week.
+
+📍 Mysore / Bangalore | DM on LinkedIn
+
