@@ -15,5 +15,5 @@ What I optimize for: Sharpe, not just PnL. Low turnover, low drawdown, determini
 
 Open to: HK quant contract / remote systematic research roles. Can ship factor -> live paper in 1 week.
 
-📍 Mysore / Bangalore | DM on LinkedIn
+📍 Hong Kong | DM on LinkedIn
 
