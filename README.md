@@ -28,7 +28,7 @@
 
 **Technology:** C++20/23, par_unseq, SPSC, AVX2, AF_XDP, CMake, perf, Ubuntu 24.04
 
-**Background:** 25+ years in technology, including 9+ years focused on low-latency market data infrastructure. 16 years enterprise PMO + 9 years Data Fidelis Services Hong Kong.
+**Background:** 25+ years in technology, including 9+ years focused on low-latency market data infrastructure.
 
 **Availability:** Day-rate consulting, greenfield builds, immediate availability, Hong Kong PR — No visa required
 
