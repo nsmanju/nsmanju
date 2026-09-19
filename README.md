@@ -1,19 +1,32 @@
-Systematic Quant | Python + C++ | Building for HK Prop
+### Quantitative Infrastructure Consultant
 
-I build low-latency systematic trading systems end-to-end: research -> backtest -> O(1) C++ engine.
+**Hong Kong Permanent Resident | C++20 Low-Latency Market Data Fabric | SFC Auditable Systems**
 
-Current Stack:
-Research: Python (pandas, statsmodels, cointegration, OU process)
-Execution: C++ (O(1) cache, 35M checks/sec deterministic)
-Focus: Funding arbitrage, stat-arb alpha factory, walk-forward Sharpe 1.5
+**Flagship Project — hkex-omdc-fabric:**
+- HKEX OMD-C Binary Market Data Parser
+- SPSC 8192 Lock-Free Ring Buffer (32B Tick, 64B cache-line padded)
+- L2 OrderBook Depth 10 reconstruction <1us
+- AF_XDP Kernel Bypass + UDP Multicast fallback
+- Live performance: 126,804 ticks zero drops, 2M ticks/sec, p50 0.17us p99 0.40us
+- Ubuntu 24.04 CLI, measured with rdtsc + lfence, taskset
+- Public market data only, deterministic and reproducible for audit
 
-Repos:
+**Current Public Repositories:**
+- hkex-omdc-fabric — Low-latency market data fabric
+- low-latency-trading-system — Low-latency system using Yahoo Finance data
+- memory-allocation-performance — Comparison of direct OS heap vs preallocated chunk allocator
+- portfolio-optimization — Portfolio management using function pointers in C++
+- cpp-hft-straddle — C++ HFT straddle implementation
+- tesla-options-straddle — Tesla options straddle strategy
+- football-simulation-cpp — Football match simulation in C++ using vectors and random number generation
 
-crypto-funding-arb-engine [C++, 35M/sec O(1) scan]
-stat-arb-alpha-factory [WIP - 10 factors + Engle-Granger + Sharpe]
-What I optimize for: Sharpe, not just PnL. Low turnover, low drawdown, deterministic latency.
+**Private Repositories:**
+- Previous research repositories related to cryptocurrency have been made private to focus on SFC-auditable infrastructure for licensed financial institutions.
 
-Open to: HK quant contract / remote systematic research roles. Can ship factor -> live paper in 1 week.
+**Technology:** C++20/23, par_unseq, SPSC, AVX2, AF_XDP, CMake, perf, Ubuntu 24.04
 
-📍 Hong Kong | DM on LinkedIn
+**Availability:** Day-rate consulting, greenfield builds, immediate availability, Hong Kong PR
 
+**Scope:** IT Consulting and Software Development for licensed financial institutions only. No virtual asset service provider activity. No client funds. Public data only.
+
+36.9M operations per second suite — 514K screening, 1.4M vol arb, 35M funding arb simulations
