@@ -27,6 +27,7 @@
 
 **Availability:** Day-rate consulting, greenfield builds, immediate availability, Hong Kong PR
 
-**Scope:** IT Consulting and Software Development for licensed financial institutions only. No virtual asset service provider activity. No client funds. Public data only.
+**Scope:** IT Consulting and Software Development for licensed financial institutions only. No virtual asset service provider activity. No client funds. 
+Public data only.
 
-36.9M operations per second suite — 514K screening, 1.4M vol arb, 35M funding arb simulations
+
