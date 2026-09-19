@@ -3,7 +3,6 @@
 **Hong Kong Permanent Resident | C++20 Low-Latency Market Data Fabric | SFC Auditable Systems**
 
 **Flagship Project — hkex-omdc-fabric:**
-
 - HKEX OMD-C Binary Market Data Parser
 - SPSC 8192 Lock-Free Ring Buffer (32B Tick, 64B cache-line padded)
 - L2 OrderBook Depth 10 reconstruction <1us
@@ -13,7 +12,6 @@
 - Public market data only, deterministic and reproducible for audit
 
 **Current Public Repositories:**
-
 - hkex-omdc-fabric — Low-latency market data fabric
 - low-latency-trading-system — Low-latency system using Yahoo Finance data
 - memory-allocation-performance — Comparison of direct OS heap vs preallocated chunk allocator
@@ -23,15 +21,14 @@
 - football-simulation-cpp — Football match simulation in C++ using vectors and random number generation
 
 **Private Repositories:**
-
 - Previous research repositories related to cryptocurrency have been made private to focus on SFC-auditable infrastructure for licensed financial institutions.
 
 **Technology:** C++20/23, par_unseq, SPSC, AVX2, AF_XDP, CMake, perf, Ubuntu 24.04
 
-**Background:** 25+ years in technology, including 9+ years focused on low-latency market data infrastructure.
+**Background:** 25+ years in technology, including 9+ years focused on low-latency market data infrastructure — 16 years enterprise PMO + 9 years Data Fidelis Services Hong Kong.
 
 **Availability:** Day-rate consulting, greenfield builds, immediate availability, Hong Kong PR — No visa required
 
 **Scope:** IT Consulting and Software Development for licensed financial institutions only. No virtual asset service provider activity. No client funds. Public market data only.
 
-**Performance Suite:** 36.9M operations per second — 514K screening, 1.4M vol arb, 35M funding arb simulations — Shared C++20 core, no allocation on hot path
+**Performance Suite:** 36.9M ops/sec — 514K screening, 1.4M vol arb, 35M funding arb simulations
